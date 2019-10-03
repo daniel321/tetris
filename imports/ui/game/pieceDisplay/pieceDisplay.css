@@ -1,0 +1,17 @@
+.displayControls .rotateButton {
+  width: 50px;
+}
+
+.pieceDisplay .displayButtons {
+    margin: 10px 0px 10px 0px;
+}
+
+.pieceDisplay .displayButtons .rotateButton {
+  width: 50px;
+  margin-left: 3px;
+}
+
+.pieceDisplay .displayButtons .deleteButton {
+  width: 50px;
+  margin-left: 3px;
+}

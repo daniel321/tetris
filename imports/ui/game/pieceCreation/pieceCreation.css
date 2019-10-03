@@ -1,0 +1,72 @@
+.creationPage {
+  text-align: left;
+  justify-self: center;
+}
+
+.createControls .row {
+    margin: 10px 0px 10px 0px;
+}
+
+.saveButton {
+  width: 45px;
+  margin-left: 5px;
+}
+
+.sizeButton {
+  border-width: 0px;
+  width: 20px;
+  margin: 5px 5px 5px 0px;
+}
+
+.createControls .rotateButton {
+  width: 50px;
+  margin-left: 3px;
+}
+
+.nameInput {
+  width: 100px;
+  height: 15px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.colorPicker {
+  width: 102px;
+  height: 25px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.creationPagePiece {
+  display: grid;
+  grid-template-columns: 1.05fr max-content min-content min-content min-content 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+}
+
+.creationPagePiece .pieceDisplaytable {
+  grid-column: 2 / 5;
+  grid-row: 2 / 5;
+}
+
+.creationPagePiece .sizeButtonPlusVert {
+  grid-column: 6 / 5;
+  grid-row: 3 / 4;
+  margin-left: 5px;
+}
+
+.creationPagePiece .sizeButtonMinusVert {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+  margin-left: 5px;
+}
+
+.creationPagePiece .sizeButtonPlusHoriz {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  margin-left: 5px;
+}
+
+.creationPagePiece .sizeButtonMinusHoriz {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}

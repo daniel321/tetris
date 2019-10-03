@@ -1,0 +1,54 @@
+.gameStage {
+  display: grid;
+  grid-template-columns: 1.05fr max-content min-content min-content min-content 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  margin-bottom: 5px;
+}
+
+.gameStage .scoreContainer {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  margin: auto auto;
+}
+
+.gameStage .levelContainer {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  margin: auto 0px;
+}
+
+
+.gameStage .pieceDisplaytable {
+  grid-column: 2 / 5;
+  grid-row: 2 / 5;
+}
+
+.gameStage .sizeButtonPlusVert {
+  grid-column: 6 / 5;
+  grid-row: 3 / 4;
+  margin-left: 5px;
+}
+
+.gameStage .sizeButtonMinusVert {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+  margin-left: 5px;
+}
+
+.gameStage .sizeButtonPlusHoriz {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  margin-left: 5px;
+}
+
+.gameStage .sizeButtonMinusHoriz {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.startButton {
+  width: 50px;
+  margin-left: 3px;
+}
